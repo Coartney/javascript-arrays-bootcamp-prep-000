@@ -10,3 +10,4 @@ var newArray = array;
 newArray = [element, ...newArray]
 return newArray
 }
+newArray = array
