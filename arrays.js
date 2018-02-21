@@ -12,6 +12,6 @@ return newArray
 }
 
 function addElementToEndOfArray(array, element){
-  var sillyArray = [array..., element]
+  var sillyArray = [array,... element]
   return sillyArray
 }
