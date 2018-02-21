@@ -10,3 +10,8 @@ var newArray = array;
 newArray.unshift(element)
 return newArray
 }
+
+function addElementToEndOfArray(array, element){
+  var sillyArray = [array, ...element]
+  return sillyArray
+}
