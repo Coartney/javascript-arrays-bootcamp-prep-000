@@ -12,6 +12,7 @@ return newArray
 }
 
 function addElementToEndOfArray(array, element){
-  var sillyArray = [array,... element]
+  var sillyArray = array;
+  sillyArray.concat
   return sillyArray
 }
