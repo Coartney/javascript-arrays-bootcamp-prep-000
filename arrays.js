@@ -15,3 +15,9 @@ function addElementToEndOfArray(array, element){
   var sillyArray = array;
   return sillyArray.concat(element);
 }
+
+function destructivelyAddElementToEndOfArray(array, element){
+  var practiceArray = array;
+  practiceArray.push(element);
+  return practiceArray
+}
