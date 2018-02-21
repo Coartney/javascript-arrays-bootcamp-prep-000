@@ -21,3 +21,9 @@ function destructivelyAddElementToEndOfArray(array, element){
   practiceArray.push(element);
   return practiceArray
 }
+
+function accessElementInArray (array, index){
+  var accessElement = array;
+  accessElement[index] = element;
+  return element
+}
