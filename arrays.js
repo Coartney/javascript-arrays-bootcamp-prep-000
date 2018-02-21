@@ -8,5 +8,5 @@ function addElementToBeginningOfArray(array, element){
 function destructivelyAddElementToBeginningOfArray(array, element){
   const newArray = array
   const addElement = [element, ...newArray]
-  return destructivelyAddElementToBeginningOfArray
+  return newArray
 }
