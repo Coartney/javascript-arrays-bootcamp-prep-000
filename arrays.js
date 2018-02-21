@@ -40,7 +40,8 @@ function removeElementFromBeginningOfArray(array){
 
 function destructivelyRemoveElementFromEndOfArray(array){
   goneForGood = array;
-  return goneForGood.pop()
+  goneForGood.pop()
+  return goneForGood
 }
 
 
