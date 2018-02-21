@@ -37,3 +37,23 @@ function removeElementFromBeginningOfArray(array){
   return justKidding.slice(1)
 }
 
+function destructivelyRemoveElementFromEndOfArray(array){
+  goneForGood = array;
+  return goneForGood.pop()
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
