@@ -43,7 +43,10 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 
 
-
+function removeElementFromEndOfArray(array){
+  onlyTemporary = array;
+  return onlyTemporary.slice(0, onlyTemporary.length - 1)
+}
 
 
 
